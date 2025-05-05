@@ -62,6 +62,9 @@
                 android:layout_height="wrap_content"
                 android:text="Vol -" />
 
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="5dp"/>
             <Button
                 android:id="@+id/volumeUpButton"
                 android:layout_width="wrap_content"
@@ -79,7 +82,8 @@
                 android:id="@+id/dpadUpButton"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:text="UP" />
+                android:textSize="24dp"
+                android:text="⇧" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -90,7 +94,13 @@
                     android:id="@+id/dpadLeftButton"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="LEFT" />
+                    android:textSize="24dp"
+                    android:text="⇦" />
+
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="5dp"/>
 
                 <Button
                     android:id="@+id/dpadCenterButton"
@@ -98,20 +108,40 @@
                     android:layout_height="wrap_content"
                     android:text="OK" />
 
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="5dp"/>
+
                 <Button
                     android:id="@+id/dpadRightButton"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="RIGHT" />
+                    android:textSize="24dp"
+                    android:text="⇨" />
             </LinearLayout>
-
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="10dp"/>
             <Button
                 android:id="@+id/dpadDownButton"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:text="DOWN" />
+                android:textSize="24dp"
+                android:text="⇩" />
         </LinearLayout>
 
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/homeButton"
@@ -119,11 +149,17 @@
             android:layout_height="wrap_content"
             android:text="HOME" />
 
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="5dp"/>
+
         <Button
             android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="BACK" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
